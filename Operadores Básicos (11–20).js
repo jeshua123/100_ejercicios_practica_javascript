@@ -35,9 +35,22 @@ let comparación2 = 5==='5'
 
 //17. Usa != y !== para comparar dos valores distintos.
 
+let comparación3 = 12!=89
+let comparación4 = 75!==56
+
 //18. Usa > para verificar si un número es mayor que otro.
+
+let num3=5935
+let num4=1984
+let verificarMayor=num3>num4
 
 //19. Usa && para validar que dos condiciones sean verdaderas.
 
+let condición1=true
+let condición2=true
+
+let sonVerdaderas=condición1 && condición2
+
 //20. Usa || para verificar si una de dos condiciones es verdadera.
 
+let unaEsVerdadera=condición1 || condición2
