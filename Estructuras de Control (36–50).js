@@ -134,9 +134,37 @@ let string_a_invertir="murciélago"
 let string_sep=string_a_invertir.split("")
 let string_invertido=[]
 
-for (let i = string_sep.length+1; i > string_sep.length; i--) {
-  console.log(string_sep[i])
-}
 
+for (let index = string_sep.length-1; index >=0; index--) {
+ string_invertido.push(string_sep[index])
+}
+string_invertido=string_invertido.join("")
+console.log(string_invertido)
 
 //50. Usa un bucle para contar cuántas vocales tiene una palabra.
+let palabra_Con_Vocales="santiago"
+let contador_vocales=0
+let array_letras=palabra_Con_Vocales.split("")
+
+for (let index = 0; index < array_letras.length; index++) {
+  switch (array_letras[index]) {
+    case "a":
+      contador_vocales++
+      break;
+    case "e":
+      contador_vocales++
+      break;
+    case "i":
+      contador_vocales++
+      break;
+    case "o":
+      contador_vocales++
+      break;
+    case "u":
+      contador_vocales++
+      break;
+
+  }
+
+}
+console.log(contador_vocales)
